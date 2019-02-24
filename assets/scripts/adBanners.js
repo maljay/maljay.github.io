@@ -27,7 +27,7 @@ function rotate() {
         document.getElementById('adBannerLink').href = image_urls[ry];
         document.getElementById('adBannerLink').target = url_target;
 
-        setTimeout("rotate()", 1000);
+        setTimeout("rotate()", 5000);
     }
 }
 
@@ -36,7 +36,7 @@ function order_rotate(){
     start_image++;
     if(start_image > all_images.length - 1){start_image = 0}
 
-    setTimeout("order_rotate()", 1000)
+    setTimeout("order_rotate()", 5000)
 
     window.document.all['adBanner'].src = all_images[start_image];
     document.getElementById('adBannerLink').href = image_urls[start_image];
