@@ -9,11 +9,11 @@ image_urls[0] = "https://warriorplus.com/o2/a/pm97l/0";
 url_target[0] = "_blank";
 
 all_images[1] = "assets/images/w3schools.gif";
-image_urls[1] = "www.w3schools.com";
+image_urls[1] = "https://www.w3schools.com";
 url_target[1] = "_blank";
 
 all_images[2] = "assets/images/cleverprogrammer.gif";
-image_urls[2] = "www.cleverprogrammer.com";
+image_urls[2] = "https://www.cleverprogrammer.com";
 url_target[2] = "_blank";
 
 all_images[3] = "assets/images/codecollege.gif";
